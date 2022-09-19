@@ -1,0 +1,81 @@
+#Home{
+    background-image: url(../imgs/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position:cover;
+    height: 100vh;
+    color: #fff;
+}
+#Home .layer{
+    background-color: rgba(0, 0, 0, 0.69);
+}
+.home-caption button:hover{
+    background-color: #fff;
+    color: black!important ;
+}
+.home-caption button{
+    transition: all .5s;
+}
+.header-desc {
+    max-width: 500px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75) !important;
+    
+}
+.home-caption h1{
+    font-size: 54px!important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white!important;
+    transition: all 0.5s;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav{
+    color: #5fb2e6 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #5fb2e6 !important;
+}
+.setting{
+    background-color: #2b2424;
+    padding: 10px;
+    top: 20%;
+}
+.setting .fas{
+    font-size:20px;
+}
+
+
+
+
+
+/* 555555555555555555 */
+.main-color{
+    color: #5fb2e6 !important;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    transition: all 0.5s;
+}
+.icon:hover i{
+    color: #5fb2e6!important;
+}
+.icon:hover{
+    border-color: #e65f78 !important;
+}
+
+
+
+
+
+
+.line{
+    width: 40px;
+    height: 2px;
+    background-color: #e65f78;
+    transition: all 0.5s;
+}
+.Services-cap:hover .line{
+    width: 70px;
+}
